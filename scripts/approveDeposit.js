@@ -16,7 +16,7 @@ async function main() {
 
   
   const NFT = await ethers.getContractFactory("CuteCats");
-  const ethNFTAddress = await NFT.attach("0xB72c286F1fD6a8121466F3b611819d4b0afC00A6"); 
+  const ethNFTAddress = await NFT.attach(""); 
 
   
   const fxRootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
