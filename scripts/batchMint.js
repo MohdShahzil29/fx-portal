@@ -29,7 +29,7 @@ async function batchMintTokens(privateKey, contractAddress, numTokens) {
 
 async function main() {
   const privateKey = process.env.PRIVATE_KEY;
-  const contractAddress = "0xB72c286F1fD6a8121466F3b611819d4b0afC00A6";
+  const contractAddress = "";
 
   // Batch mint 5 tokens
   await batchMintTokens(privateKey, contractAddress, 5);
