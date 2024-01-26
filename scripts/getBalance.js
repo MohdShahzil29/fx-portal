@@ -7,9 +7,9 @@
 const hre = require("hardhat");
 const tokenContractJSON = require("../artifacts/contracts/MetaToken.sol/MetaToken.json");
 
-const tokenAddress = "0x280a80ECa2b2378f33A4f2D2758d58466c25df71"; 
+const tokenAddress = ""; 
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0xB72c286F1fD6a8121466F3b611819d4b0afC00A6"; 
+const walletAddress = ""; 
 
 async function main() {
 
